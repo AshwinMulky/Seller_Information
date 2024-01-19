@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sentryc_interview
+    username: appuser
+    password: appuser
+  jpa:
+    hibernate:
+      ddl-auto: update
+    #show-sql: true
+  hikari:
+      maximum-pool-size: 10
